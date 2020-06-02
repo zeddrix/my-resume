@@ -4,35 +4,51 @@ body {
   margin: 2.5em;
 }
 
+#my-pic,
+#intro,
+.icon,
+.contact-info,
+#email-icon {
+  float: left;
+}
+
+#header,
+#contact-info-container,
+#resume-body {
+  position: relative;
+}
+
 #header {
   display: inline-block;
-  position: relative;
 }
-
 #my-pic {
   text-align: left;
-  float: left;
 }
-
-#intro {
-  text-align: left;
-  float: left;
-  margin-left: 1em;
-}
-
-h1 {
+#my-name,
+.contact-info {
   margin-top: 0em;
 }
-
+#job {
+  margin-top: -1em;
+  color: lightgrey;
+}
+#intro {
+  text-align: left;
+  margin-left: 1em;
+}
 #contact-info-container {
-  position: relative;
   margin: 1em;
 }
-
 .contact-info {
-  float: left;
   padding: 0em;
-  margin: 0 2em 0 0.5em;
+  margin-right: 2em;
+  margin-left: 0.5em;
+}
+.icon {
+  margin-top: 0.1em;
+}
+#email-icon {
+  margin-top: 0.3em;
 }
 
 #summary-side {
@@ -41,34 +57,13 @@ h1 {
 }
 
 #resume-body {
-  position: relative;
   padding: 1em;
   margin-top: 3em;
 }
-.icon {
-  float: left;
-  margin-top: 0.1em;
-}
-
-#email-icon {
-   float: left;
-   margin-top: 0.3em;
-}
 
 #projects-header {
-   margin-left: 0.2em;
+  margin-left: 0.2em;
 }
-
-#vl {
-  border-left: 6px solid;
-  height: 500px;
-}
-
-h3 {
-   margin-bottom: -0.7em;
-}
-
-#job {
-   margin-top: -1em;
-   color: lightgrey;
+.project-names {
+  margin-bottom: -0.7em;
 }
