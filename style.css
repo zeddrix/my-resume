@@ -38,11 +38,17 @@ body {
 }
 #contact-info-container {
   margin: 1em;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 2em;
 }
 .contact-info {
   padding: 0em;
   margin-right: 2em;
   margin-left: 0.5em;
+}
+a {
+  text-decoration: none;
+  color: rgb(34, 185, 185);
 }
 .icon {
   margin-top: 0.1em;
@@ -54,6 +60,12 @@ body {
 #summary-side {
   float: right;
   margin: 2em;
+  color: grey;
+  border-left: 2px solid rgb(34, 185, 185);
+  padding-left: 1em;
+}
+.summary-side-headers {
+  color: black;
 }
 
 #resume-body {
@@ -66,4 +78,5 @@ body {
 }
 .project-names {
   margin-bottom: -0.7em;
+  color: rgb(34, 185, 185);
 }
