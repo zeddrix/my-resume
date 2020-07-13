@@ -4,39 +4,39 @@ body {
   margin: 2.5em;
 }
 
-#my-pic,
-#intro,
+.my-pic,
+.intro,
 .icon,
 .contact-info,
-#email-icon {
+.email-icon {
   float: left;
 }
 
-#header,
-#contact-info-container,
-#resume-body {
+.header,
+.contact-info__container,
+.resume-body {
   position: relative;
 }
 
-#header {
+.header {
   display: inline-block;
 }
-#my-pic {
+.my-pic {
   text-align: left;
 }
-#my-name,
+.intro__zeddrix-fabian,
 .contact-info {
   margin-top: 0em;
 }
-#job {
+.intro__career {
   margin-top: -1em;
   color: lightgrey;
 }
-#intro {
+.intro {
   text-align: left;
   margin-left: 1em;
 }
-#contact-info-container {
+.contact-info__container {
   margin: 1em;
   border-bottom: 2px solid lightgrey;
   padding-bottom: 2em;
@@ -48,35 +48,35 @@ body {
 }
 a {
   text-decoration: none;
-  color: rgb(34, 185, 185);
+  color: #22b9b9;
 }
 .icon {
   margin-top: 0.1em;
 }
-#email-icon {
+.email-icon {
   margin-top: 0.3em;
 }
 
-#summary-side {
+.summary-side {
   float: right;
   margin: 2em;
   color: grey;
-  border-left: 2px solid rgb(34, 185, 185);
+  border-left: 2px solid #22b9b9;
   padding-left: 1em;
 }
-.summary-side-headers {
+.summary-side__header {
   color: black;
 }
 
-#resume-body {
+.resume-body {
   padding: 1em;
   margin-top: -1em;
 }
 
-#projects-header {
+.projects__header {
   margin-left: 0.2em;
 }
-.project-names {
+.project__name {
   margin-bottom: -0.7em;
-  color: rgb(34, 185, 185);
+  color: #22b9b9;
 }

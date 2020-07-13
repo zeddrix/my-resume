@@ -9,61 +9,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="header">
-      <div id="my-pic">
+    <header class="header">
+      <div class="my-pic">
         <img src="img/my-pic.jpg" alt="Zeddrix's picture" width="200px" />
       </div>
-      <div id="intro">
-        <h1 id="my-name">Zeddrix Fabian</h1>
-        <h2 id="job">Developer</h2>
+      <div class="intro">
+        <h1 class="intro__zeddrix-fabian">Zeddrix Fabian</h1>
+        <h2 class="intro__career">Developer</h2>
         <i>
           A junior developer. Sample resume.
         </i>
       </div>
-    </div>
-    <div id="contact-info-container">
+    </header>
+    <div class="contact-info__container">
       <div>
-        <img
-          class="icon"
-          src="img/website-icon.png"
-          alt="website icon"
-          width="20em"
-        />
-        <a href="https://zeddrix.com/" target="_blank" class="contact-info"
-          >zeddrix.com</a
-        >
+        <img class="icon" src="img/website-icon.png" alt="website icon" width="20em"/>
+        <a href="https://zeddrix.com/" target="_blank" class="contact-info">zeddrix.com</a>
       </div>
       <div>
-        <img
-          id="email-icon"
-          src="img/email-icon.png"
-          alt="email icon"
-          width="22em"
-        />
+        <img class="email-icon" src="img/email-icon.png" alt="email icon" width="22em"/>
         <p class="contact-info">zeddrix.fabian@gmail.com</p>
       </div>
       <div>
-        <img
-          class="icon"
-          src="img/phone-icon.png"
-          alt="phone icon"
-          width="20em"
-        />
+        <img class="icon" src="img/phone-icon.png" alt="phone icon" width="20em"/>
         <p class="contact-info">0928 307 4956</p>
       </div>
       <div>
-        <img
-          class="icon"
-          src="img/address-icon.png"
-          alt="address icon"
-          width="18em"
-        />
+        <img class="icon" src="img/address-icon.png" alt="address icon" width="18em"/>
         <p class="contact-info">Poblacion IV, Tanza, Cavite</p>
       </div>
     </div>
-    <div id="summary-side">
-      <div id="skills">
-        <h2 class="summary-side-headers">Skills</h2>
+    <div class="summary-side">
+      <div class="skills__section">
+        <h2 class="summary-side__header">Skills</h2>
         <p>Vanilla JavaScript</p>
         <p>CSS styling</p>
         <p>Python</p>
@@ -71,17 +49,17 @@
         <p>Wordpress</p>
         <p>Photoshop</p>
       </div>
-      <div id="education">
-        <h2 class="summary-side-headers">Education</h2>
+      <div class="education__section">
+        <h2 class="summary-side__header">Education</h2>
         <p>Elementary</p>
         <p>Highschool</p>
       </div>
     </div>
-    <!-- <div id="vl"></div> -->
-    <div id="resume-body">
-      <h2 id="projects-header">Projects</h2>
-      <div id="bible-query">
-        <h3 class="project-names">Bible Query (game)</h3>
+    <!-- <div class="vl"></div> -->
+    <div class="resume-body">
+      <h2 class="projects__header">Projects</h2>
+      <div>
+        <h3 class="project__name">Bible Query (game)</h3>
         <ul>
           <li>A multiple choice Bible quiz with multiple levels</li>
           <li>Used Photoshop for creating my own buttons</li>
@@ -89,8 +67,8 @@
           <li>Created modals for clues and other buttons</li>
         </ul>
       </div>
-      <div id="just-color">
-        <h3 class="project-names">Just Color! (website)</h3>
+      <div>
+        <h3 class="project__name">Just Color! (website)</h3>
         <ul>
           <li>Very simplified HTML and CSS code</li>
           <li>Mostly vanilla JavaScript code</li>
@@ -104,8 +82,8 @@
           </li>
         </ul>
       </div>
-      <div id="portfolio-website">
-        <h3 class="project-names">My Portfolio Website</h3>
+      <div>
+        <h3 class="project__name">My Portfolio Website</h3>
         <ul>
           <li>Aided with a virtual environment</li>
           <li>Made models and connected them with the apps of the website</li>
@@ -115,8 +93,8 @@
           <li>Used Bootstrap</li>
         </ul>
       </div>
-      <div id="word-counter-web">
-        <h3 class="project-names">Word Counter Website</h3>
+      <div>
+        <h3 class="project__name">Word Counter Website</h3>
         <ul>
           <li>Ran the Django server at any time</li>
           <li>Altered and customized URLs for the client's likes</li>
